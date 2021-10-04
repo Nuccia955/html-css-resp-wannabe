@@ -94,7 +94,7 @@ RESPONSIVE
 
   img {
     width: 100%;
-    height: 120px;
+    height: 20vh;
     object-fit: contain;
     margin:10px auto;
   }
@@ -145,11 +145,89 @@ RESPONSIVE
   }
 
   #why .row img {
-    width: 40%;
+    width: 20vw;
   }
 
   #why hr {
     margin: 15px auto;
   }
 
+}
+
+@media screen and (min-width: 420px) and (max-width: 992px) {
+  body {
+    margin: 0 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .row {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 100%;
+    height: 20vh;
+    object-fit: contain;
+    margin:10px auto;
+  }
+
+  .row h1 {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 45%;
+    text-align: left;
+    float: none;
+  }
+
+  #lezioni .row > .left {
+    margin-right: 10%;
+  }  
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .row h3 {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    width: 30%;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central {
+    margin-right: 5%;
+  }
+  
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    margin: 15px;
+  }
+
+  #why .row img {
+    width: 20vw;
+  }
+
+  #why hr {
+    margin: 15px auto;
+  }
 }
