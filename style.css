@@ -83,6 +83,10 @@ RESPONSIVE
     font-family: sans-serif;
   }
 
+  .container {
+    padding: 10px;
+  }
+
   .row {
     width: 100%;
     margin: 20px auto;
@@ -107,11 +111,11 @@ RESPONSIVE
     float: none;
   }
 
-  #lezioni .row > .left {
+  .row > .left {
     margin-right: 10%;
   }  
 
-  #lezioni .row {
+  .row {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -122,13 +126,7 @@ RESPONSIVE
     text-align: center;
   }
 
-  .container {
-    padding: 10px;
-  }
-
   #steps .row {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -139,9 +137,19 @@ RESPONSIVE
     text-align: left;
     margin-bottom: 15px;
   }
-
-  #steps .row > .left {
-    margin-right: 10%;
-  }
   
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    margin: 15px;
+  }
+
+  #why .row img {
+    width: 40%;
+  }
+
+  #why hr {
+    margin: 15px auto;
+  }
+
 }
