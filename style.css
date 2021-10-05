@@ -79,7 +79,7 @@ RESPONSIVE
 @media screen and (max-width: 420px) {
   body {
     margin: 0 20px;
-    font-size: 14px;
+    font-size: 11px;
     font-family: sans-serif;
   }
 
@@ -157,7 +157,7 @@ RESPONSIVE
 @media screen and (min-width: 420px) and (max-width: 992px) {
   body {
     margin: 0 20px;
-    font-size: 14px;
+    font-size: 11px;
     font-family: sans-serif;
   }
 
